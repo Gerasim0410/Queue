@@ -11,7 +11,7 @@ namespace CppCLR_WinformsProjekt {
 		using namespace System::Drawing;
 
 		/// <summary>
-		/// Сводка для Form1
+		/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї Form1
 		/// </summary>
 		public ref class Form1 : public System::Windows::Forms::Form
 		{
@@ -52,16 +52,16 @@ namespace CppCLR_WinformsProjekt {
 			{
 				InitializeComponent();
 				//
-				//TODO: добавьте код конструктора
+				//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 				//
 
 				gr = CreateGraphics();
 				rndl = gcnew Random();
 
 				BlackPen = gcnew Pen(Color::DodgerBlue);
-				BlackPen->Width = 15.0F;
+				BlackPen->Width = 40.0F;
 				ClearPen = gcnew Pen(Color::White);
-				ClearPen->Width = 15.0F;
+				ClearPen->Width = 40.0F;
 
 				CenterX = 450;
 				CenterY = 100;
@@ -74,7 +74,7 @@ namespace CppCLR_WinformsProjekt {
 
 		protected:
 			/// <summary>
-			/// Освободить все используемые ресурсы.
+			/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 			/// </summary>
 			~Form1()
 			{
@@ -89,14 +89,14 @@ namespace CppCLR_WinformsProjekt {
 
 		private:
 			/// <summary>
-			/// Обязательная переменная конструктора.
+			/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 			/// </summary>
 
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 			void InitializeComponent(void)
 			{
@@ -127,7 +127,7 @@ namespace CppCLR_WinformsProjekt {
 				this->button1->Name = L"button1";
 				this->button1->Size = System::Drawing::Size(75, 23);
 				this->button1->TabIndex = 0;
-				this->button1->Text = L"Пуск";
+				this->button1->Text = L"ГЏГіГ±ГЄ";
 				this->button1->UseVisualStyleBackColor = true;
 				this->button1->Click += gcnew System::EventHandler(this, &Form1::button1_Click);
 				// 
@@ -182,7 +182,7 @@ namespace CppCLR_WinformsProjekt {
 				this->label1->Name = L"label1";
 				this->label1->Size = System::Drawing::Size(256, 20);
 				this->label1->TabIndex = 5;
-				this->label1->Text = L"Максимальный размер очереди:";
+				this->label1->Text = L"ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г»Г© Г°Г Г§Г¬ГҐГ° Г®Г·ГҐГ°ГҐГ¤ГЁ:";
 				// 
 				// label2
 				// 
@@ -193,7 +193,7 @@ namespace CppCLR_WinformsProjekt {
 				this->label2->Name = L"label2";
 				this->label2->Size = System::Drawing::Size(228, 20);
 				this->label2->TabIndex = 6;
-				this->label2->Text = L"Начальный размер очереди:\r\n";
+				this->label2->Text = L"ГЌГ Г·Г Г«ГјГ­Г»Г© Г°Г Г§Г¬ГҐГ° Г®Г·ГҐГ°ГҐГ¤ГЁ:\r\n";
 				// 
 				// label3
 				// 
@@ -204,7 +204,7 @@ namespace CppCLR_WinformsProjekt {
 				this->label3->Name = L"label3";
 				this->label3->Size = System::Drawing::Size(203, 20);
 				this->label3->TabIndex = 7;
-				this->label3->Text = L"Вероятность извлечения";
+				this->label3->Text = L"Г‚ГҐГ°Г®ГїГІГ­Г®Г±ГІГј ГЁГ§ГўГ«ГҐГ·ГҐГ­ГЁГї";
 				// 
 				// label4
 				// 
@@ -215,7 +215,7 @@ namespace CppCLR_WinformsProjekt {
 				this->label4->Name = L"label4";
 				this->label4->Size = System::Drawing::Size(206, 20);
 				this->label4->TabIndex = 8;
-				this->label4->Text = L"Вероятность добавления";
+				this->label4->Text = L"Г‚ГҐГ°Г®ГїГІГ­Г®Г±ГІГј Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГї";
 				// 
 				// button2
 				// 
@@ -223,7 +223,7 @@ namespace CppCLR_WinformsProjekt {
 				this->button2->Name = L"button2";
 				this->button2->Size = System::Drawing::Size(75, 23);
 				this->button2->TabIndex = 9;
-				this->button2->Text = L"Стоп";
+				this->button2->Text = L"Г‘ГІГ®ГЇ";
 				this->button2->UseVisualStyleBackColor = true;
 				this->button2->Click += gcnew System::EventHandler(this, &Form1::button2_Click);
 				// 
@@ -236,7 +236,7 @@ namespace CppCLR_WinformsProjekt {
 				this->label5->Name = L"label5";
 				this->label5->Size = System::Drawing::Size(198, 20);
 				this->label5->TabIndex = 10;
-				this->label5->Text = L"Колличество дабвленых";
+				this->label5->Text = L"ГЉГ®Г«Г«ГЁГ·ГҐГ±ГІГўГ® Г¤Г ГЎГўГ«ГҐГ­Г»Гµ";
 				// 
 				// label6
 				// 
@@ -247,7 +247,7 @@ namespace CppCLR_WinformsProjekt {
 				this->label6->Name = L"label6";
 				this->label6->Size = System::Drawing::Size(213, 20);
 				this->label6->TabIndex = 11;
-				this->label6->Text = L"Колличество извлеченных\r\n";
+				this->label6->Text = L"ГЉГ®Г«Г«ГЁГ·ГҐГ±ГІГўГ® ГЁГ§ГўГ«ГҐГ·ГҐГ­Г­Г»Гµ\r\n";
 				// 
 				// label7
 				// 
@@ -360,7 +360,7 @@ namespace CppCLR_WinformsProjekt {
 				timer1->Enabled = true;
 			}
 			catch (int) {
-				label11->Text = "Заполните все поля!!!";
+				label11->Text = "Г‡Г ГЇГ®Г«Г­ГЁГІГҐ ГўГ±ГҐ ГЇГ®Г«Гї!!!";
 			}
 		}
 		private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e) {
